@@ -1,0 +1,79 @@
+/* Base */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navigation bar */
+
+.logo {
+  font-family: "Playfair Display", serif;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+/* Utilities */
+
+.space {
+  letter-spacing: 0.3rem;
+}
+
+.m-left {
+  margin-left: 0.5rem;
+}
+
+/* Home page */
+
+.section-home {
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+  background-image: linear-gradient(to top, #6420aa, #6520aab0, #6520aa3b),
+    url(img/home-normal-2.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.home-heading {
+  font-size: 4.3rem;
+  margin-bottom: 3rem;
+}
+
+.home-text {
+  display: block;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  border: 2px solid #ffffff;
+  width: 13rem;
+  border-radius: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Gallery */
+
+.section-gallery {
+  height: 55rem;
+  background-color: #6420aa;
+}
+
+.card-in {
+  height: 100%;
+  gap: 3rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-dark {
+  width: 5rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS link -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
+
+    <title>Dazzle</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="img/logo.png" alt="logo" class="logo" /> -->
+          <h1 class="logo">Dazzle</h1>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link space" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">Mens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">Womens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">New drops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">
+                <i class="fa-solid m-left fa-user"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">
+                <i class="fa-solid m-left fa-heart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link space" href="#">
+                <i class="fa-solid m-left fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section
+      class="section-home text-light d-flex flex-column justify-content-center"
+    >
+      <div class="container">
+        <h1 class="home-heading fw-normal">
+          <span class="home-text">Get up to 50% off</span>
+          <span class="home-text">on our new arrivals</span>
+        </h1>
+        <button type="button" class="btn space btn-outline-light">
+          Shop now
+        </button>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-gallery d-flex align-items-center">
+      <div class="container">
+        <div class="card mb-3 border-0 rounded-5 shadow">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="img/gallery-img-2.jpg"
+                class="img-fluid rounded-start-5 gallery-img"
+                alt="gallery-img"
+              />
+            </div>
+            <div class="col-md-8">
+              <div
+                class="card-body card-in d-flex flex-column justify-content-center ms-5"
+              >
+                <h3 class="card-title fw-bold space">Shop the latest drop</h3>
+                <p class="card-text">
+                  Shop the latest trends now and elevate your wardrobe with our
+                  stylish collection!
+                </p>
+                <button type="button" class="btn btn-dark rounded-5">
+                  Dark
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Javascript link -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
