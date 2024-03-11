@@ -16,8 +16,20 @@ body {
 
 /* Utilities */
 
+.space-sm {
+  letter-spacing: 0.1rem;
+}
+
 .space {
   letter-spacing: 0.3rem;
+}
+
+.space-md {
+  letter-spacing: 0.6rem;
+}
+
+.space-lg {
+  letter-spacing: 2rem;
 }
 
 .m-left {
@@ -56,7 +68,7 @@ body {
 /* Gallery */
 
 .section-gallery {
-  height: 55rem;
+  height: 63rem;
   background-color: #6420aa;
 }
 
@@ -73,7 +85,137 @@ body {
   font-size: 1rem;
 }
 
+.fs-5 {
+  font-size: 1.5rem !important;
+}
+
 .btn-dark {
-  width: 5rem;
+  width: 7rem;
   font-size: 1rem;
+}
+
+/* grid */
+
+.section-grid {
+  height: 60rem;
+}
+
+.model-container {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.model-img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  object-fit: cover;
+}
+
+.model-text {
+  color: #ffffff;
+  position: absolute;
+  bottom: 8rem;
+}
+
+.model-text-left {
+  left: 5rem;
+}
+
+.model-text-right {
+  right: 5rem;
+}
+
+.text-format {
+  color: #6420aa;
+}
+
+.btn-light {
+  width: 10rem;
+  position: absolute;
+}
+
+.btn-left {
+  left: 0;
+}
+
+.btn-right {
+  right: 0.8rem;
+}
+
+/* card */
+
+.section-card {
+  /* height: 60rem; */
+  padding: 10rem 0;
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+
+.card-body > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.card-title,
+.card-price {
+  font-size: 1rem;
+}
+
+/* cta-section */
+.section-cta {
+  height: 60rem;
+  position: relative;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.cta-content {
+  text-align: center;
+}
+
+.fs-1 {
+  font-size: 4.3rem !important;
+}
+
+/* footer */
+
+.footer {
+  height: 30rem;
+}
+
+.footer-content {
+  border-top: 0.125rem solid #6420aa;
+  padding-top: 5rem;
+}
+
+.footer-content-heading {
+  font-size: 1rem !important;
+}
+
+.fa-brands {
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  color: #6420aa;
 }
