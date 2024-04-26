@@ -97,7 +97,7 @@ body {
 /* grid */
 
 .section-grid {
-  height: 60rem;
+  height: 65rem;
 }
 
 .model-container {
@@ -146,7 +146,6 @@ body {
 /* card */
 
 .section-card {
-  /* height: 60rem; */
   padding: 10rem 0;
 }
 
@@ -165,7 +164,7 @@ body {
 
 /* cta-section */
 .section-cta {
-  height: 60rem;
+  height: 65rem;
   position: relative;
 }
 
@@ -202,7 +201,7 @@ body {
 }
 
 .footer-content {
-  border-top: 0.125rem solid #6420aa;
+  border-top: 0.122rem solid #6420aa;
   padding-top: 5rem;
 }
 
